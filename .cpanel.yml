@@ -2,4 +2,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/scholarb/api.scholarboatph.com/
-    - /bin/cp -R scholarboat-api $DEPLOYPATH
+    - /bin/cp -R src $DEPLOYPATH
+    - /bin/cp -R vendor $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp .env.example $DEPLOYPATH
+    - /bin/cp composer.json $DEPLOYPATH
+    - /bin/cp composer.lock $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
