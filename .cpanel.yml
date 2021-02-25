@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/scholarb/api.scholarboatph.com/
+    - /bin/cp -R scholarboat-api $DEPLOYPATH
